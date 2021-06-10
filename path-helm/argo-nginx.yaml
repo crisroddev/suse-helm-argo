@@ -11,7 +11,7 @@ spec:
   source:
     helm:
       valueFiles:
-      - values-prod.yaml
+      - values.yaml
     path: path-helm
     repoURL: https://github.com/crisroddev/suse-helm-argo
     targetRevision: HEAD
